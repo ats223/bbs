@@ -1,9 +1,10 @@
 # bbs 構築手順
+
+http://174.129.105.194/bbs.php
+
 ## 準備
 インスタンスを起動し秘密鍵を作成<br>
 あらかじめPHP,Docker,Git,MYSQLをインストールする
-
-http://174.129.105.194/bbs.php
 
 
 
@@ -43,6 +44,9 @@ CREATE TABLE `bbs_entries` (
 
 ALTER TABLE `bbs_entries` ADD COLUMN image_filename TEXT DEFAULT NULL;
 ```
+
+
+
 
 
 以上
