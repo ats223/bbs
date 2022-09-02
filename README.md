@@ -3,7 +3,7 @@
 インスタンスを起動し秘密鍵を作成<br>
 あらかじめPHP,Docker,Git,MYSQLをインストールする
 
-http://サーバーのアドレス/bbs.php
+http://174.129.105.194/bbs.php
 
 
 
