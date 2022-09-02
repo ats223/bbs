@@ -35,6 +35,9 @@ CREATE TABLE `bbs_entries` (
     `body` TEXT NOT NULL,
     `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+
+ALTER TABLE `bbs_entries` ADD COLUMN image_filename TEXT DEFAULT NULL;
 ```
+
 
 以上
